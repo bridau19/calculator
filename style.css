@@ -1,0 +1,57 @@
+body, html {
+  margin: 2vw;
+  padding: 0;
+}
+
+body {
+  background-color: #f1dedd;
+}
+
+label {
+  color: #5e5e5e;
+}
+
+h1 {
+  font-size: 3em;
+  color: #e06767;
+  text-align: center;
+  margin-top: 12vh;
+}
+
+h2 {
+  font-size: 2em;
+  color: #e06767;
+}
+
+.mainSite {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.columnContainer {
+  display: flex;
+}
+
+.thisColumn {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  padding: 2vw;
+  width: 100%;
+}
+
+button {
+  background-color: #e06767;
+  color: #f1dedd;
+  font-family: serif;
+  font-size: 1.2em;
+  padding: 10px;
+}
+
+.fortune {
+  text-shadow: 2px 2px 4px #e06767;
+  padding: 20px;
+  border: 2px solid #e06767;
+}
